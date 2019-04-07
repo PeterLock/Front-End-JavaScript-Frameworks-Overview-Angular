@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DishDetailComponent } from './dishdetail.component';
+import { AboutComponent } from './about.component';
 
-describe('DishdetailComponent', () => {
-  let component: DishDetailComponent;
-  let fixture: ComponentFixture<DishDetailComponent>;
+describe('AboutComponent', () => {
+  let component: AboutComponent;
+  let fixture: ComponentFixture<AboutComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DishDetailComponent ]
+      declarations: [ AboutComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DishDetailComponent);
+    fixture = TestBed.createComponent(AboutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -23,4 +23,3 @@ describe('DishdetailComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
